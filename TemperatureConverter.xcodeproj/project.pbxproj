@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		CAF392A829775A790004940F /* TemperatureConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF392A729775A790004940F /* TemperatureConverterApp.swift */; };
-		CAF392AA29775A790004940F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF392A929775A790004940F /* ContentView.swift */; };
+		CAF392AA29775A790004940F /* FView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF392A929775A790004940F /* FView.swift */; };
 		CAF392AC29775A7C0004940F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF392AB29775A7C0004940F /* Assets.xcassets */; };
 		CAF392AF29775A7C0004940F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF392AE29775A7C0004940F /* Preview Assets.xcassets */; };
+		CAF392B629775B020004940F /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF392B529775B020004940F /* NavigationView.swift */; };
+		CAF392B8297773060004940F /* CView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF392B7297773060004940F /* CView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CAF392A429775A790004940F /* TemperatureConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF392A729775A790004940F /* TemperatureConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemperatureConverterApp.swift; sourceTree = "<group>"; };
-		CAF392A929775A790004940F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CAF392A929775A790004940F /* FView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FView.swift; sourceTree = "<group>"; };
 		CAF392AB29775A7C0004940F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF392AE29775A7C0004940F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF392B529775B020004940F /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		CAF392B7297773060004940F /* CView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				CAF392A729775A790004940F /* TemperatureConverterApp.swift */,
-				CAF392A929775A790004940F /* ContentView.swift */,
+				CAF392A929775A790004940F /* FView.swift */,
+				CAF392B7297773060004940F /* CView.swift */,
+				CAF392B529775B020004940F /* NavigationView.swift */,
 				CAF392AB29775A7C0004940F /* Assets.xcassets */,
 				CAF392AD29775A7C0004940F /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF392AA29775A790004940F /* ContentView.swift in Sources */,
+				CAF392B8297773060004940F /* CView.swift in Sources */,
+				CAF392AA29775A790004940F /* FView.swift in Sources */,
+				CAF392B629775B020004940F /* NavigationView.swift in Sources */,
 				CAF392A829775A790004940F /* TemperatureConverterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
